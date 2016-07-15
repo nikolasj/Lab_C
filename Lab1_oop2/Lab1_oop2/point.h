@@ -6,6 +6,7 @@ namespace Program
 	{
 		double x, y;
 		char *c;
+		//git_test
 	public:
 		point();
 		point(double a, double b, char* d);
