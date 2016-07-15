@@ -8,7 +8,7 @@ print("----------------------------------")
 
 subprocess.call('git pull --no-edit https://github.com/nikolasj/Lab_C.git feature', shell=True)
 subprocess.call('touch test.txt', shell=True)
-subprocess.call('git diff master^ >> test.txt', shell=True)
+subprocess.call('git diff feature^ >> test.txt', shell=True)
 
 print("----------------------------------")
 print("Finish!")
