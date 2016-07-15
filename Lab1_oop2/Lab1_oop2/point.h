@@ -5,8 +5,7 @@ namespace Program
 	class point
 	{
 		double x, y;
-		char *c;
-		//git_test
+		char *c;		
 	public:
 		point();
 		point(double a, double b, char* d);
