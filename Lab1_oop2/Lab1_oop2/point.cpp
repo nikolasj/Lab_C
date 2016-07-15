@@ -12,6 +12,7 @@ namespace Program
 {
 	point::point(point* a)
 	{
+		// test
 		x = a->x;
 		y = a->x;
 		strncpy(c, a->c, 10);
