@@ -7,12 +7,8 @@ import subprocess
 
 def main():
     print("Start!")
-    print("----------------------------------")
     # subprocess.call('git pull --no-edit https://github.com/nikolasj/Lab_C.git feature', shell=True)
     # subprocess.call('git diff feature^', shell=True)
-    # print("----------------------------------")
-    # print("Finish!")
-
 
 if  __name__ ==  "__main__" :
    # print("Введите ветку:")
