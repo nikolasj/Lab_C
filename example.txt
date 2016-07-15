@@ -1,0 +1,1 @@
+Test for sync-sources.sh /home/cm/test_git/
