@@ -7,9 +7,8 @@ namespace Program
 
 		double x, y;
 		char *c;
-		//1
-		//2
-		//3
+		//test1
+		//test2
 	public:
 		point();
 		point(double a, double b, char* d);
