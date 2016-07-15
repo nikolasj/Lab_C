@@ -2,18 +2,21 @@
 # Script to clone all the github repos that a user is watching
 
 import subprocess
+
 # test message
-print("Start!")
-print("----------------------------------")
 
-subprocess.call('git pull --no-edit https://github.com/nikolasj/Lab_C.git master', shell=True)
+def main():
+    print("Start!")
+    print("----------------------------------")
+    subprocess.call('git pull --no-edit https://github.com/nikolasj/Lab_C.git feature', shell=True)
+    subprocess.call('git diff feature^', shell=True)
+    print("----------------------------------")
+    print("Finish!")
 
-subprocess.call('git diff master^', shell=True)
-
-print("----------------------------------")
-print("Finish!")
-
-
+if  __name__ ==  "__main__" :
+   # print("Введите ветку:")
+   # branch = input()
+    main()
 
 # subprocess.call('echo "start"', shell=True)
 # subprocess.call('mkdir /home/cm/test_git/', shell=True)
