@@ -2,13 +2,13 @@
 # Script to clone all the github repos that a user is watching
 
 import subprocess
-
+# test message
 print("Start!")
 print("----------------------------------")
 
 subprocess.call('git pull --no-edit https://github.com/nikolasj/Lab_C.git feature', shell=True)
 subprocess.call('touch test.txt', shell=True)
-subprocess.call('git diff feature^ >> test.txt', shell=True)
+subprocess.call('git diff >> test.txt', shell=True)
 
 print("----------------------------------")
 print("Finish!")
