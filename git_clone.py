@@ -11,8 +11,6 @@ def main():
     # subprocess.call('git diff feature^', shell=True)
 
 if  __name__ ==  "__main__" :
-   # print("Введите ветку:")
-   # branch = input()
     main()
 
 # subprocess.call('echo "start"', shell=True)
