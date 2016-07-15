@@ -4,10 +4,10 @@ namespace Program
 {
 	class point
 	{
+
 		double x, y;
 		char *c;
-		// test
-		// new text
+
 	
 	public:
 		point();
