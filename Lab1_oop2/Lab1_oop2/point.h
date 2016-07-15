@@ -6,9 +6,7 @@ namespace Program
 	{
 		double x, y;
 		char *c;
-		// new text
-                // new text2
-                // new text3	
+		// new text	
 	public:
 		point();
 		point(double a, double b, char* d);
