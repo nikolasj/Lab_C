@@ -12,7 +12,7 @@ namespace Program
 {
 	point::point(point* a)
 	{
-		// test
+		// test for branch 1.0-pm
 		x = a->x;
 		y = a->x;
 		strncpy(c, a->c, 10);
