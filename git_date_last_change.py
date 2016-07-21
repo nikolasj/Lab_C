@@ -3,24 +3,29 @@
 
 import subprocess
 import sys
-import GitCloneProject
+import GitChange
 
 def main(user_login, user_password):
 
     data = [
 
-        ('LuaBridge', '@gitlab.ptsecurity.ru/extlibs/LuaBridge.git',  'https://github.com/vinniefalco/LuaBridge.git master'),
-        ('luajit-2.0','@gitlab.ptsecurity.ru/extlibs/luajit-2.0.git', 'https://github.com/LuaDist/luajit.git master'       ),
+        ('LuaBridge', '@gitlab.ptsecurity.ru/extlibs/LuaBridge.git',  'master'),
+        # ('luajit-2.0','@gitlab.ptsecurity.ru/extlibs/luajit-2.0.git', 'https://github.com/LuaDist/luajit.git master'       ),
         ]
 
     for item in data:
-        GitCloneProject.main(
+        GitChange.last_changed(
             item[0],
             item[1],
             item[2],
             user_login,
             user_password,
         )
+
+    # for item in data:
+    #     GitChange.date_file(
+    #         item[0],
+    #     )
 
 if __name__ == '__main__':
     main(
