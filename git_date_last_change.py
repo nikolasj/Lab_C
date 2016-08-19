@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# (c) Positive Technologies, 2016
+# Author: Nikolay Yusev
+
 # Script to clone all the github repos that a user is watching
 
 import subprocess
